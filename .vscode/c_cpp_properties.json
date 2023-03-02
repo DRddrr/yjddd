@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:\\vcpkg\\installed\\x64-windows\\include",
+                "c17",
+                "c++20"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerArgs": [
+                "-std=c++20",
+                "-Mmodules",
+                "windows-gcc-x64"
+            ]
+        }
+    ],
+    "version": 4
+}
